@@ -42,18 +42,32 @@ Line | Code
  Every Statement критериумот:
  
  Node	Source Line	                                        TC1     TC2     TC3     TC4
- A	    if (user!=null)	                                    *       *       *       *
- B	    if (user.getUsername()!=null ...	                 *	     *	     *	      *
- C	    boolean atChar = false, dotChar = false;	         *	     *	     *	
- D	    for (int i=0;i<user.getEmail().length();i++)	     *	     *	     *	
- E	    if (user.getEmail().charAt(i)=='@')	             *	     *	     *	
- F	    atChar = true;	                                    *	     *		
- G	    if (atChar && user.getEmail().charAt(i)=='.')	     *	     *	     *	
+ 
+ A	    if (user!=null)                                     *       *       *       *
+ 
+ B	    if (user.getUsername()!=null ...	                   *	      *	      *	      *
+ 
+ C	    boolean atChar = false, dotChar = false;	           *	      *	      *	
+ 
+ D	    for (int i=0;i<user.getEmail().length();i++)	       *	     *	     *	
+ 
+ E	    if (user.getEmail().charAt(i)=='@')	                *	     *	     *	
+ 
+ F	    atChar = true;	                                     *	     *		
+ 
+ G	    if (atChar && user.getEmail().charAt(i)=='.')	      *	     *	     *	
+ 
  H	    dotChar = true;	                                    *			
- I	    }	                                                *	     *	     *	
- J	    if (atChar && dotChar)	                            *	     *	     *	
- K	    return true;	                                    *			
- L	    return false;		                                *	     *     	 *
+ 
+ I	    }	                                                  *	     *	     *	
+ 
+ J	    if (atChar && dotChar)	                             *	     *	     *	
+ 
+ K	    return true;	                                       *			
+ 
+ L	    return false;		                                     *	     *     	 *
+
+(view in raw for table preview)
 
  ===========================================================================
  
