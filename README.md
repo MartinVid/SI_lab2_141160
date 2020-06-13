@@ -21,6 +21,8 @@ Line | Code
  
  ===========================================================================
  
+(view in raw for table preview)
+
  TEST CASES:
  
  TC1	    User(Username1, Password1, email@mail.com)  - Ги исполнува сите услови
@@ -38,7 +40,6 @@ Line | Code
  TC7	    User(Username, Password2, null)             - Email = null
 
  ===========================================================================
-
  Every Statement критериумот:
  
  Node	Source Line	                                        TC1     TC2     TC3     TC4
@@ -66,8 +67,6 @@ Line | Code
  K	    return true;	                                       *			
  
  L	    return false;		                                     *	     *     	 *
-
-(view in raw for table preview)
 
  ===========================================================================
  
